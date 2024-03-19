@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sandra Torres
+FN:Sandra Torres
+ORG:Hendler Flores Law
+URL:https://hendlerlaw.com
+TITLE:Administrative Legal Assistant
+TEL;TYPE=WORK,VOICE:512.439.3200
+EMAIL;TYPE=PREF,INTERNET:
+ADR:;;901 S. MoPac Expressway Bldg. 1, Suite #300;;Austin;TX;78746;US
+LABEL:901 S. MoPac ExpresswayBldg. 1, Suite #300 Austin\, TX 78746
+END:VCARD

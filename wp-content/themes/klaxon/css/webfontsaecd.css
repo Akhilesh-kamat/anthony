@@ -1,0 +1,70 @@
+/* For Google Fonts, strongly recommend use of: https://google-webfonts-helper.herokuapp.com/fonts */
+
+/* 1. Upload the .woff and .woff2 fonts to your theme folder /fonts/ */
+/* 2. Generate CSS for "Modern Browsers" and paste it here */
+/* 3. Add a font-display property each @font-face: https://css-tricks.com/almanac/properties/f/font-display/ */
+/* 4. Preload your most commonly used .woff2 file in functions.php */
+
+/* font-display: swap favors a FOUT (Flash of Unstyled Text); it requests the browser use a fallback font until our font loads */
+/* font-display: optional favors a FOIT (Flash of Invisible Text); it hides text, but quickly decides whether to allow our font to load */
+
+
+/* Red-Hat-Display-Regular  */
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Regular.woff') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Red-Hat-Display-Medium  */
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Red-Hat-Display-Semi-bold  */
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Red-Hat-Display-Bold  */
+
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playlist-Script';
+    src: url('../fonts/Playlist-Script.woff2') format('woff2'),
+        url('../fonts/Playlist-Script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
