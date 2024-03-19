@@ -2379,7 +2379,7 @@ right: -19px;
  
  @media screen and (min-width: 280px) and (max-width: 767px) {
 .header-mobile-inner {
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	text-align: center;
 	align-items: center;
 	padding: 5px 10px 5px 10px;
