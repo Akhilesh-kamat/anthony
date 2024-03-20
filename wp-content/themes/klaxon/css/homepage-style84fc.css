@@ -121,7 +121,7 @@ MODULE -   Home-Intro-Section
 
 .about-text-inner p {
 	padding-left: 26px;
-	color: #fff;
+	/* color: #fff; */
 	font-size: 20px;
 	padding-top: 25px;
 	line-height: 30px;
