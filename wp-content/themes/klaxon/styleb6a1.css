@@ -417,10 +417,12 @@ section.sidebar-block {
 
 
 	.content {
-		padding-right: 75px;
-		width: 65%;
+		
+		width: 50%;
 		margin-bottom: 0;
-		padding-left:35px
+		padding: 20px 30px;
+		border: 1px solid rgba(112, 105, 99, .1);
+		background: rgba(112, 105, 99, .05);
 	}
 .page-template-template-contact .sidebar.columns {
 	padding: 0;
@@ -431,10 +433,10 @@ section.sidebar-block {
 	}
 
 .sidebar {
-	width: 35%;
+	width: 50%;
 	float: right;
 	clear: none;
-	padding-left: 15px;
+	padding-left: 35px;
 	padding-right: 15px;
 }
 
