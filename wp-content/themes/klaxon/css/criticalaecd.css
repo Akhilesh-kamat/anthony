@@ -1872,7 +1872,7 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-.menu-item
 	align-items: center;
 	margin-top: 0;
 	padding-bottom: 0;
-	justify-content: center;
+	justify-content: flex-end;
 	 
 }
 
@@ -1911,15 +1911,17 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-.menu-item
 }
 .tag-one {
 	font-family: var(--heading-font-family);
-	font-size: 120px;
+	font-size: 75px;
 	color: #fff;
-	line-height: 95px;
+	line-height: 85px;
 	text-transform: capitalize;
 	font-weight: bold;
-	margin-bottom: -130px;
+	/* margin-bottom: -130px; */
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	position: relative;
+	margin-right: 33px;
+	margin-top: -200px;
 }
 
 .green-title.hp-green-tag {
