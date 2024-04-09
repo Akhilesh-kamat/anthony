@@ -3547,7 +3547,7 @@ MODULE - Home-Benefits-Section
 	padding-bottom: 30px;
 }
 
-.benefit-icon {
+/* .benefit-icon {
 	text-align: center;
 	background-image: url(images/intro-icon-bg.png);
 	background-repeat: no-repeat;
@@ -3559,11 +3559,13 @@ MODULE - Home-Benefits-Section
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
 .benefit-icon img {
-	max-width: 80px;
-	max-height: 80px;
+	max-width: 140px;
+	max-height: 140px;
+	object-fit: contain;
+	filter: grayscale(1);
 }
 
 .benefit-title {

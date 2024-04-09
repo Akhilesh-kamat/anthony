@@ -2148,7 +2148,7 @@ li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-.menu-item
 
 .home-hero, .home-slider, .home-slider-single {
 	height: 100vh;
-	min-height: 754px;
+	min-height: 650px;
 	width: 100%;
 	background-size: cover;
 	background-position: center center;
