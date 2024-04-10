@@ -3565,7 +3565,7 @@ MODULE - Home-Benefits-Section
 	max-width: 140px;
 	max-height: 140px;
 	object-fit: contain;
-	filter: grayscale(1);
+	/* filter: grayscale(1); */
 }
 
 .benefit-title {
