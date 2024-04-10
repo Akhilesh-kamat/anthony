@@ -1527,7 +1527,7 @@ FOOTER - Module-footer-a
 }
 
 .page-template-template-contact-b .footer-contact{
-	padding-bottom:30px;
+	/* padding-bottom:30px; */
 }
 
 .footer-contact a.module-footer-phone {
