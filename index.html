@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
 	<title>Anthony Law Firm | Advocacy and Leadership in New Jersey</title>
@@ -93,6 +93,100 @@
 	<link rel="icon" href="wp-content/uploads/ms-icon-150x150-1.png" sizes="192x192" />
 	<link rel="apple-touch-icon" href="wp-content/uploads/ms-icon-150x150-1.png" />
 	<meta name="msapplication-TileImage" content="wp-content/uploads/ms-icon-150x150-1.png" />
+	<style>
+		#popup-container {
+			display: none;
+			position: fixed;
+			top: 20%;
+			left: 0;
+			/* transform: translate(-50%, -50%); */
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			width: 100%;
+			max-width: 300px;
+			overflow: hidden;
+			z-index: 1000;
+
+		}
+
+		#popup-container p {
+
+			line-height: 20px;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			font-weight: normal;
+			color: rgba(0, 0, 0, 0.87);
+			font-size: 15px;
+
+		}
+
+		.popup-image {
+			aspect-ratio: 3 / 2;
+			width: 100%;
+			height: auto;
+			object-fit: inherit;
+		}
+
+		.close-icon {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			cursor: pointer;
+		}
+
+		#popup-container h2 {
+			font-size: 20px;
+			/* Reduce font size */
+
+			line-height: 1.5;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			font-weight: normal;
+			color: rgba(0, 0, 0, 0.87);
+			line-height: 110%;
+
+
+
+		}
+
+		.read-more-button {
+			display: block;
+			/* Make button visible */
+			margin-top: 0px;
+			/* Add some spacing */
+			text-decoration: none;
+			color: #fff;
+			background-color: #26a69a;
+			text-align: center;
+			letter-spacing: .5px;
+			font-size: 14px;
+			outline: 0;
+			border: none;
+			border-radius: 2px;
+			display: inline-block;
+			height: 36px;
+			line-height: 36px;
+			padding: 0 16px;
+			text-transform: uppercase;
+
+			-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+		}
+
+		/* Responsive styles */
+		@media screen and (max-width: 600px) {
+			#popup-container {
+				width: 80%;
+				/* Adjust width for smaller screens */
+				max-width: none;
+				/* Remove maximum width */
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	</style>
 </head>
 
 <body
@@ -109,17 +203,17 @@
 			<li
 				class="menu-item menu-item-type-post_type menu-item-object-page  menu-item- menu-item-has-children parent-menu-item">
 				<a href="what-we-do/index.html">What We Do </a>
-				
+
 			</li>
 			<li
 				class="menu-item menu-item-type-post_type menu-item-object-page  menu-item- menu-item-has-children parent-menu-item">
 				<a href="client-stories/index.html">Client Stories </a>
-				
+
 			</li>
 			<li
 				class="menu-item menu-item-type-post_type menu-item-object-page  menu-item- menu-item-has-children parent-menu-item">
 				<a href="client-center/index.html">Client Center </a>
-				
+
 			</li>
 			<li id='menu-item' class='menu-item menu-item-type-post_type menu-item-object-page  parent-menu-item'>
 				<a href='get-in-touch/index.html'>Contact us</a>
@@ -170,6 +264,7 @@
 
 
 	<div id="container">
+
 		<header class="header header-mobile" id="header-mobile" style="opacity:0;">
 			<div class="header-mobile-inner">
 				<a class="header-logo" href="index.html">
@@ -225,7 +320,7 @@
 				</aside>
 			</div>
 		</header>
-		
+
 		<header class="header header-desktop" id="header-desktop" style="opacity:0;">
 			<div class="module-header-a">
 				<div class="row">
@@ -256,7 +351,7 @@
 										</li>
 									</ul>
 								</nav>
-								
+
 								<a class="module-header-a-phone" href="tel:+1.973.486.4178">1 973.486.4178</a>
 								<button class="header-search-toggle alt-01" id="header-search-open"><span
 										class="visually-hidden">Open Site Search</span><i
@@ -268,17 +363,17 @@
 										<li id="menu-item-1192"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1192">
 											<a href="what-we-do/index.html">What We Do</a>
-											
+
 										</li>
 										<li id="menu-item-1210"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1210">
 											<a href="client-stories/index.html">Client Stories</a>
-											
+
 										</li>
 										<li id="menu-item-1205"
 											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1205">
 											<a href="client-center/index.html">Client Center</a>
-											
+
 										</li>
 										<li id="menu-item-1212"
 											class="gtouch menu-item menu-item-type-post_type menu-item-object-page menu-item-1212">
@@ -324,7 +419,7 @@
 							<div class="tag-one tagline first-tagline-1">
 
 								<span class="hp-first-tag"
-									style="opacity:0; line-height: 1; text-transform: none;">Advocacy  and <br>
+									style="opacity:0; line-height: 1; text-transform: none;">Advocacy and <br>
 									Leadership</span>
 							</div>
 							<div class="tag-two tagline sec-tagline-1" style="opacity:0;"></div>
@@ -364,7 +459,15 @@
 			</section>
 		</div>
 		<main id="main" class="no-padding">
-
+			<div id="popup-container">
+				<span class="close-icon" style="font-size: 35px !important; top: 3px !important;">&times;</span>
+				<h2>Al Anthony Helps Raise Over $1.3 Million for Pillar Care Continuum</h2>
+				<img src="wp-content/uploads/al-popup.jpeg" alt="Al Anthony" class="popup-image">
+				<p>Al Anthony, a dedicated philanthropist, has successfully raised over $1.3 million for Pillar Care
+					Continuum, a nonprofit organization dedicated to supporting individuals with disabilities. </p>
+				<a href="https://anthonylawfirm.blogspot.com/2024/04/al-anthony-helps-raise-over-13-million.html"
+					class="waves-effect waves-light btn read-more-button">Read more</a>
+			</div>
 
 			<section class="module module-benefits">
 				<div class="row">
@@ -375,9 +478,8 @@
 									data-wow-delay="0.2s">
 									<div class="benefits-inner">
 										<div class="benefit-icon">
-											<img class="lazy-img"
-											data-all-src="wp-content/uploads/consultaion.svg"
-											src="wp-content/uploads/consultaion.svg"alt="icon">
+											<img class="lazy-img" data-all-src="wp-content/uploads/consultaion.svg"
+												src="wp-content/uploads/consultaion.svg" alt="icon">
 										</div>
 										<h3 class="benefit-title">Complimentary & Private Consultation </h3>
 									</div>
@@ -387,8 +489,7 @@
 									<div class="benefits-inner">
 										<div class="benefit-icon">
 											<img class="lazy-img" data-all-src="wp-content/uploads/no-cost-light.svg"
-											src="wp-content/uploads/no-cost-light.svg"	
-											alt="icon">
+												src="wp-content/uploads/no-cost-light.svg" alt="icon">
 										</div>
 										<h3 class="benefit-title">No Charges or Fees Unless We Succeed </h3>
 									</div>
@@ -398,7 +499,7 @@
 									<div class="benefits-inner">
 										<div class="benefit-icon">
 											<img class="lazy-img" data-all-src="wp-content/uploads/virtual-meeting.svg"
-											src="wp-content/uploads/virtual-meeting.svg" alt="icon">
+												src="wp-content/uploads/virtual-meeting.svg" alt="icon">
 										</div>
 										<h3 class="benefit-title">Online Meetings </h3>
 									</div>
@@ -408,7 +509,7 @@
 									<div class="benefits-inner">
 										<div class="benefit-icon">
 											<img class="lazy-img" data-all-src="wp-content/uploads/nationwide.svg"
-											src="wp-content/uploads/nationwide.svg" alt="icon">
+												src="wp-content/uploads/nationwide.svg" alt="icon">
 										</div>
 										<h3 class="benefit-title">Representation Across the Country </h3>
 									</div>
@@ -652,9 +753,11 @@
 							<h2 class="help-sec-title green-title wow fadeInUp"> help</h2>
 						</div>
 						<div class="practice-box-list row-narrow">
-							<a href="asbestos-and-mesothelioma/index.html" class="practice-box">Asbestos and Mesothelioma</a>
+							<a href="asbestos-and-mesothelioma/index.html" class="practice-box">Asbestos and
+								Mesothelioma</a>
 							<a href="Benzene/index.html" class="practice-box">Benzene </a>
-							<a href="environmental-and-toxic-torts/index.html" class="practice-box">Environmental and Toxic Torts</a>
+							<a href="environmental-and-toxic-torts/index.html" class="practice-box">Environmental and
+								Toxic Torts</a>
 							<a href="consumer-class-actions/index.html" class="practice-box">Consumer Class Actions</a>
 							<a href="mass-tort/index.html" class="practice-box">Mass Tort</a>
 							<a href="severe-vehicle-accidents/index.html" class="practice-box">Severe Vehicle
@@ -893,12 +996,17 @@
 								<div class="footer-col-inner">
 									<h2 class="footer-title">Share Your Story Today</h2>
 									<div class="footer-text ">
-										<p>We're here to listen, guide you through your legal choices, and stand by you during this challenging period. Remember, there's never any charge or obligation when you reach out to our team to explore your options.</p>
+										<p>We're here to listen, guide you through your legal choices, and stand by you
+											during this challenging period. Remember, there's never any charge or
+											obligation when you reach out to our team to explore your options.</p>
 										<p>What to expect when you submit the form:</p>
 										<ol>
-											<li>You'll receive confirmation once your form has been successfully submitted.</li>
-											<li>A legal expert will contact you at your preferred time within 24 hours.</li>
-											<li>We'll provide you with details about our law firm and the steps involved in filing a lawsuit.</li>
+											<li>You'll receive confirmation once your form has been successfully
+												submitted.</li>
+											<li>A legal expert will contact you at your preferred time within 24 hours.
+											</li>
+											<li>We'll provide you with details about our law firm and the steps involved
+												in filing a lawsuit.</li>
 										</ol>
 									</div>
 									<div class="footer-graph "><img src="../wp-content/uploads/map_small_map-2.png"
@@ -909,9 +1017,9 @@
 							<div class="columns large-6 medium-6 small-12 footer-right-col">
 								<div class="footer-col-inner">
 									<div class="form-container">
-										<h2 class="form-second-text ">Contact us<br><span class="sub-text">There's No Charge or Obligation</span></h2>
-										<form id="contact-formStandard" class="contact-form" method="post"
-											action="#">
+										<h2 class="form-second-text ">Contact us<br><span class="sub-text">There's No
+												Charge or Obligation</span></h2>
+										<form id="contact-formStandard" class="contact-form" method="post" action="#">
 											<div class="form-input">
 												<div class="form-input-group">
 													<input id="nameStandard" name="name" type="text"
@@ -974,7 +1082,7 @@
 										</div>
 										</p>
 									</div>
-									
+
 									<div class="footer-address">
 										<address itemscope="" itemtype="http://schema.org/LocalBusiness">
 											<span itemprop="name" class="visually-hidden">Anthony Law Firm</span>
@@ -1012,6 +1120,19 @@
 						class="fa fa-arrow-right small-margin-left"></i></a>
 			</div>
 		</footer>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				// Show modal after 2.5 seconds
+				setTimeout(function () {
+					document.getElementById('popup-container').style.display = 'block';
+				}, 2500);
+
+				// Close modal when close icon is clicked
+				document.querySelector('.close-icon').addEventListener('click', function () {
+					document.getElementById('popup-container').style.display = 'none';
+				});
+			});
+		</script>
 	</div>
 	<link rel='stylesheet' id='stylesheet-css' href='wp-content/themes/klaxon/stylef16f.css?ver=1710258575'
 		type='text/css' media='all' />
