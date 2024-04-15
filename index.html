@@ -96,7 +96,7 @@
 	<style>
 		#popup-container {
 			display: none;
-			position: fixed;
+			position: absolute;
 			top: 20%;
 			left: 0;
 			/* transform: translate(-50%, -50%); */
@@ -107,17 +107,18 @@
 			width: 100%;
 			max-width: 300px;
 			overflow: hidden;
-			z-index: 1000;
+			z-index: 9;
 
 		}
 
 		#popup-container p {
 
-			line-height: 20px;
+			line-height: 16px;
 			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 			font-weight: normal;
 			color: rgba(0, 0, 0, 0.87);
-			font-size: 15px;
+			font-size: 14px;
+			margin-bottom: 12px;
 
 		}
 
@@ -138,7 +139,7 @@
 		}
 
 		#popup-container h2 {
-			font-size: 20px;
+			font-size: 18px;
 			/* Reduce font size */
 
 			line-height: 1.5;
@@ -187,6 +188,7 @@
 				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
+				z-index: 10;
 			}
 		}
 	</style>
@@ -409,6 +411,15 @@
 			</div>
 		</div>
 		<div class="home-hero">
+			<div id="popup-container">
+				<span class="close-icon" style="font-size: 35px !important; top: 3px !important;">&times;</span>
+				<h2>Al Anthony Helps Raise Over $1.3 Million for Pillar Care Continuum</h2>
+				<img src="wp-content/uploads/al-popup.jpeg" alt="Al Anthony" class="popup-image">
+				<p>Al Anthony, a dedicated philanthropist, has successfully raised over $1.3 million for Pillar Care
+					Continuum, a nonprofit organization dedicated to supporting individuals with disabilities. </p>
+				<a href="https://anthonylawfirm.blogspot.com/2024/04/al-anthony-helps-raise-over-13-million.html"
+					class="waves-effect waves-light btn read-more-button">Read more</a>
+			</div>
 			<div id="home-slider" class="home-slider">
 				<div class="home-slider-single hp-slider-single-1"
 					data-mobile-image="wp-content/uploads/AAtowncouncil-1.png"
@@ -462,15 +473,7 @@
 			</section>
 		</div>
 		<main id="main" class="no-padding">
-			<div id="popup-container">
-				<span class="close-icon" style="font-size: 35px !important; top: 3px !important;">&times;</span>
-				<h2>Al Anthony Helps Raise Over $1.3 Million for Pillar Care Continuum</h2>
-				<img src="wp-content/uploads/al-popup.jpeg" alt="Al Anthony" class="popup-image">
-				<p>Al Anthony, a dedicated philanthropist, has successfully raised over $1.3 million for Pillar Care
-					Continuum, a nonprofit organization dedicated to supporting individuals with disabilities. </p>
-				<a href="https://anthonylawfirm.blogspot.com/2024/04/al-anthony-helps-raise-over-13-million.html"
-					class="waves-effect waves-light btn read-more-button">Read more</a>
-			</div>
+			
 
 			<section class="module module-benefits">
 				<div class="row">
