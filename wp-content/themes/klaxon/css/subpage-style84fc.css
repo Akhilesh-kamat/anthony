@@ -377,8 +377,9 @@ Sidebar - Boxes CSS
 }
 
 .sidebar-block.section-benefits .benefit-icon img {
-	max-width: 60px;
-	max-height: 60px;
+	max-width: 140px;
+    max-height: 140px;
+    object-fit: contain;
 }
 
 .sidebar-block.section-benefits .benefit-title {
