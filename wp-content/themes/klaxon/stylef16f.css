@@ -1506,9 +1506,9 @@ FOOTER - Module-footer-a
 	text-align: left;
 }
 
-.footer-bottom {
+/* .footer-bottom {
 	padding-top: 60px;
-}
+} */
 
 .module-footer-a .footer-bot-title {
 	color: #2fa591;
@@ -1601,8 +1601,8 @@ FOOTER - Module-footer-a
 }
 
 .footer-address p {
-	margin-bottom: 30px;
-	margin-top: 5px;
+	margin-bottom: 15px;
+	/* margin-top: 5px; */
 }
 
 .footer-address .ofc-name {
@@ -2103,7 +2103,7 @@ text-align: center;
 }
 
 .footer-address {
-	padding-top: 15px;
+	/* padding-top: 15px; */
 }
 
 .sticky-footer1 {
