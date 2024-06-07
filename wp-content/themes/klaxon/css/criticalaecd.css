@@ -1212,14 +1212,14 @@ MENUS - Main navigation, dropdowns and mobile menu
 	margin-right: 23px;
 }
 
-.module-header-a-right-bottom .main-navigation-menu li::after {
+/* .module-header-a-right-bottom .main-navigation-menu li::after {
 	content: "|";
 	color: #ebf4f3;
 	position: absolute;
 	top: 9px;
 	right: -20px;
 	font-size: 16px;
-}
+} */
 
 .module-header-a-right-bottom .main-navigation-menu li:nth-child(3)::after,
 .module-header-a-right-bottom .main-navigation-menu li:nth-child(4)::after{
