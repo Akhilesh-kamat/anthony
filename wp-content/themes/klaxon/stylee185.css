@@ -1310,7 +1310,7 @@ FOOTER - Module-footer-a
 }
 
 .footer.module-footer-a {
-	padding: 80px 0 70px 0;
+	padding: 80px 0 10px 0;
 	position: relative;
 	background-size: cover;
 	background-position: center top;
@@ -1506,9 +1506,9 @@ FOOTER - Module-footer-a
 	text-align: left;
 }
 
-.footer-bottom {
+/* .footer-bottom {
 	padding-top: 60px;
-}
+} */
 
 .module-footer-a .footer-bot-title {
 	color: #2fa591;
@@ -1520,7 +1520,7 @@ FOOTER - Module-footer-a
 
 .footer-contact {
 	color: #edf4f3;
-	font-size: 30px;
+	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 0.76px;
 

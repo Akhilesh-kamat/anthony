@@ -1312,7 +1312,7 @@ FOOTER - Module-footer-a
 }
 
 .footer.module-footer-a {
-	padding: 80px 0 70px 0;
+	padding: 80px 0 10px 0;
 	position: relative;
 	background-size: cover;
 	background-position: center top;
@@ -1508,9 +1508,9 @@ FOOTER - Module-footer-a
 	text-align: left;
 }
 
-.footer-bottom {
+/* .footer-bottom {
 	padding-top: 60px;
-}
+} */
 
 .module-footer-a .footer-bot-title {
 	color: #2fa591;
@@ -1603,8 +1603,8 @@ FOOTER - Module-footer-a
 }
 
 .footer-address p {
-	margin-bottom: 30px;
-	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-top: 0px;
 }
 
 .footer-address .ofc-name {

@@ -133,6 +133,13 @@ a.no-underline:focus {
 	text-decoration: underline;
 }
 
+footer  p{
+	margin:0 !important;
+}
+footer  h3{
+	margin-bottom: 20px !important;
+}
+
 a,
 button,
 .button {
