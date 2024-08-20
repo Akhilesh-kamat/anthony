@@ -182,7 +182,7 @@
     height: auto;
 }
 
-.close-btn {
+.close-btn-x {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -197,6 +197,18 @@
     text-align: center;
     cursor: pointer;
     z-index: 20;
+	transition: ease-in-out 0.2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.close-btn-x:hover{
+	color: #ffffff;
+	background-color: #002439;
+	width: 30px;
+    height: 30px;
+	font-size: 18px;
+	
 }
 
 
@@ -415,7 +427,7 @@
 		</div>
 		<div class="home-hero">
 			<div class="video-container" id="videoContainer">
-        <button class="close-btn" onclick="closeVideoContainer()">×</button>
+        <div class="close-btn-x" onclick="closeVideoContainer()">×</div>
         <video controls>
             <source src="wp-content/uploads/intro-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
