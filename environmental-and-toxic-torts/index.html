@@ -79,109 +79,7 @@
 	<link rel="apple-touch-icon" href="../wp-content/uploads/ms-icon-150x150-1.png" />
 	
 
-	<style>
-		#popup-container {
-			display: none;
-			position: absolute;
-			top: 7%;
-			left: 0;
-			/* transform: translate(-50%, -50%); */
-			background-color: white;
-			padding: 16px 12px 12px 12px;
-			border-radius: 8px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-			width: 100%;
-			max-width: 265px;
-			overflow: hidden;
-			z-index: 9;
-
-		}
-
-		#popup-container p {
-
-			line-height: 16px;
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-			font-weight: normal;
-			color: rgba(0, 0, 0, 0.87);
-			font-size: 14px;
-			margin-bottom: 12px;
-
-		}
-
-		.popup-image {
-			
-			width: 100%;
-			height: auto;
-			object-fit: inherit;
-			margin-bottom: 10px;
-			border-radius: 8px;
-		}
-
-		.close-icon {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			cursor: pointer;
-		}
-
-		#popup-container h2 {
-			font-size: 18px;
-			/* Reduce font size */
-
-			line-height: 1.5;
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-			font-weight: normal;
-			color: rgba(0, 0, 0, 0.87);
-			line-height: 110%;
-			margin-bottom: 7px;
-
-
-
-		}
-
-		.read-more-button {
-			display: block;
-			/* Make button visible */
-			margin-top: 0px;
-			/* Add some spacing */
-			text-decoration: none;
-			color: #fff;
-			background-color: #002439;
-			text-align: center;
-			letter-spacing: .5px;
-			font-size: 14px;
-			outline: 0;
-			border: none;
-			border-radius: 2px;
-			display: inline-block;
-			height: 36px;
-			line-height: 36px;
-			padding: 0 16px;
-			text-transform: uppercase;
-
-			-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-
-		}
-
-		/* Responsive styles */
-		@media screen and (max-width: 600px) {
-			#popup-container {
-				width: 80%;
-				/* Adjust width for smaller screens */
-				max-width: none;
-				/* Remove maximum width */
-				top: 11%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				/* margin: auto auto; */
-				z-index: 10;
-				padding: 20px;
-			}
-		}
-
 	
-	</style>
 </head>
 
 <body class="practices-template-default single single-practices postid-1174" style="display: none;">
@@ -390,14 +288,7 @@
 		</div>
 		
 		<main id="main">
-			<div id="popup-container">
-				<span class="close-icon" style="font-size: 35px !important; top: 3px !important;">&times;</span>
-				<h2>Litigation of matters involving environmental contamination</h2>
-				<img src="../wp-content/uploads/al-popup.jpeg" alt="Al Anthony" class="popup-image">
-				<p></p>
-				<a href="https://anthonylawfirm.blogspot.com/2024/06/mr-anthony-has-specialized-his-entire.html"
-					class="waves-effect waves-light btn read-more-button">Read more</a>
-			</div>
+			
 			<div class="row">
 				<div class="content columns">
 					<section>
@@ -557,19 +448,7 @@
 	<link rel="stylesheet" href="../wp-content/themes/klaxon/css/socialicons.min84fc.css?ver=6.4.3" media="print"
 		onload="this.media='all'">
 	
-	<script>
-			document.addEventListener('DOMContentLoaded', function () {
-				// Show modal after 2.5 seconds
-				setTimeout(function () {
-					document.getElementById('popup-container').style.display = 'block';
-				}, 800);
 
-				// Close modal when close icon is clicked
-				document.querySelector('.close-icon').addEventListener('click', function () {
-					document.getElementById('popup-container').style.display = 'none';
-				});
-			});
-		</script>
 	
 	<script type="text/javascript" src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1"
 		id="jquery-core-js"></script>
